@@ -1,0 +1,157 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    margin: auto 30px 30px 30px;
+    max-width: 900px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: .8rem 0;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    margin: .8rem 0;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7rem;
+}
+
+hr.big {
+    border: 1px solid black;
+}
+
+.img-main {
+    display: block;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    width: 100%;
+}
+
+.img-sponsor-one {
+    max-width: 400px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    width: 80%;
+}
+
+.img-sponsor-two {
+    display: block;
+    max-width: 400px;
+    margin: 1.65rem auto;
+    width: 40%;
+}
+
+.margin-bottom-2rem {
+    margin-bottom: 2rem;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.social-flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-img {
+    width: 75%;
+}
+
+.social-link-div {
+    background-color: black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 10px 15px;
+}
+
+a.ticket {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.ticket:link,
+a.ticket:visited {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+a.ticket:hover,
+a.ticket:active {
+  background-color: black;
+  color: white;
+}
+
+/* screen width 600 to 960 */
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img-sponsor-two {
+        max-width: 275px;
+        width: 70%;
+    }
+}
+
+/* screen width 960 and up */
+@media screen and (min-width: 961px) {
+    body {
+        margin: auto;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img-sponsor-two {
+        max-width: 275px;
+        width: 70%;
+    }
+    
+}
