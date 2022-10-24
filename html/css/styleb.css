@@ -48,6 +48,17 @@ hr.big {
     border: 1px solid black;
 }
 
+.band-name-link:link,
+.band-name-link:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+.band-name-link:hover,
+.band-name-link:active {
+    color: black;
+}
+
 .img-main {
     display: block;
     max-width: 600px;
@@ -119,6 +130,65 @@ a.ticket:visited {
 
 a.ticket:hover,
 a.ticket:active {
+  background-color: black;
+  color: white;
+}
+
+/* artist page */
+
+.band-link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.band-link:link,
+.band-link:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+.band-link:hover,
+.band-link:active {
+    color: black;
+}
+
+.band-name {
+    margin: .4rem 0;
+}
+
+.img-artist {
+    display: block;
+    max-width: 450px;
+    margin: 1.5rem auto 1.2rem auto;
+    width: 100%;
+}
+
+.navbar {
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:link,
+.navbar a:visited {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+  padding: 9px 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a:active {
   background-color: black;
   color: white;
 }
