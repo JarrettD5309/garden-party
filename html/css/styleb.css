@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "MarissaPaternoster";
-    src: url("../fonts/marissa-paternoster.woff2") format("woff2"),
-      url("../fonts/marissa-paternoster.woff") format("woff"),
-      url("../fonts/marissa-paternoster.ttf") format("truetype");
+    font-family: "LilMist";
+    src: url("../fonts/lil-mist.woff2") format("woff2"),
+      url("../fonts/lil-mist.woff") format("woff"),
+      url("../fonts/lil-mist.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 html {
     font-size: 16px;
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    font-family: MarissaPaternoster, Arial, Helvetica, sans-serif;
+    font-family: LilMist, Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
     margin: 1rem 0;
     text-transform: uppercase;
